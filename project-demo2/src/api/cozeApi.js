@@ -1,8 +1,8 @@
 // Coze API 配置
 const COZE_API_CONFIG = {
-  baseURL: import.meta.env.VITE_COZE_API_URL || '/api/coze',
+  baseURL: '/api/coze',
   botId:  '7542771729836769320',
-  apiKey: import.meta.env.VITE_COZE_API_KEY || 'pat_nfFPURqvNeN1P6lYR2wnHlc2eamrDrfOT2pMKji7wHHU7BBE7BwECN9poUwDkyGQ'
+  apiKey: 'pat_nfFPURqvNeN1P6lYR2wnHlc2eamrDrfOT2pMKji7wHHU7BBE7BwECN9poUwDkyGQ'
 }
 
 // 备用CORS代理配置
